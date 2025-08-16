@@ -33,7 +33,9 @@ This SWIFT–BayesFlow pipeline provides a **scalable tool for cognitive modelin
 
 - `main.ipynb` → Jupyter Notebook containing the full implementation and experiments  
 - `requirements.txt` → Dependencies needed to run the notebook  
+- `fixseqin_PB2expVP10.dat` → Sample eye-tracking dataset used in the experiments  
 - `README.md` → Project documentation (this file)  
+ 
 
 ---
 
@@ -56,7 +58,6 @@ Training progress and diagnostics will be displayed inside the notebook, and fig
 
 📊 Features
 
-Data Preprocessing: Reads and filters fixation data.
 
 Simulator: Generates synthetic scanpaths using the simplified SWIFT model.
 
@@ -66,13 +67,7 @@ Training & Diagnostics: Online training with diagnostics such as posterior plots
 
 Real Participant Inference: Demonstrates parameter recovery from real eye-tracking data.
 
-🔬 Results
 
-The workflow is capable of recovering posterior distributions for ν, r, and μ_T.
-
-Diagnostics include posterior histograms, scatter plots, and pairwise comparisons.
-
-Real participant data yields interpretable estimates of reading-related cognitive parameters.
 
 
 
