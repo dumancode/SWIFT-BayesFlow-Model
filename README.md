@@ -31,9 +31,8 @@ This SWIFT–BayesFlow pipeline provides a **scalable tool for cognitive modelin
 
 ## 📂 Repository Structure
 
-- `main.py` → Main script containing model, simulator, and training code  
-- `fixseqin_PB2expVP10.dat` → Example dataset (fixation sequences)  
-- `results/` → Saved figures and posterior diagnostics  
+- `main.ipynb` → Jupyter Notebook containing the full implementation and experiments  
+- `requirements.txt` → Dependencies needed to run the notebook  
 - `README.md` → Project documentation (this file)  
 
 ---
@@ -48,16 +47,16 @@ pip install -r requirements.txt
 
 🚀 How to Run
 
-Run the workflow:
+Run the Jupyter Notebook:
 
-python main.py
+jupyter notebook main.ipynb
 
 
-Training progress and diagnostics will be printed to the console, and figures will be generated automatically.
+Training progress and diagnostics will be displayed inside the notebook, and figures will be generated inline.
 
 📊 Features
 
-Data Preprocessing: Reads and filters fixation data from .dat files.
+Data Preprocessing: Reads and filters fixation data.
 
 Simulator: Generates synthetic scanpaths using the simplified SWIFT model.
 
@@ -69,11 +68,13 @@ Real Participant Inference: Demonstrates parameter recovery from real eye-tracki
 
 🔬 Results
 
-The trained workflow is capable of recovering posterior distributions for ν, r, and μ_T.
+The workflow is capable of recovering posterior distributions for ν, r, and μ_T.
 
 Diagnostics include posterior histograms, scatter plots, and pairwise comparisons.
 
 Real participant data yields interpretable estimates of reading-related cognitive parameters.
+
+
 
 📌 References
 
@@ -87,14 +88,3 @@ Radev, S. T., et al. (2020). BayesFlow: Learning complex stochastic models with 
 
 This project was carried out as part of the SBI course at TU Dortmund University.
 We thank our instructors for guidance and valuable discussions.
-
-
-
-
-
-
-
-
-
-
-
