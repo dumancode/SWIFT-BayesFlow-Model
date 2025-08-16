@@ -79,7 +79,12 @@ Engbert, R., & Rabe, M. M. (2024). Tutorial on dynamical modeling of eye movemen
 
 Radev, S. T., et al. (2020). BayesFlow: Learning complex stochastic models with invertible neural networks. arXiv preprint arXiv:2003.06281.
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 
-This project was carried out as part of the SBI course at TU Dortmund University.
-We thank our instructors for guidance and valuable discussions.
+This project was carried out as part of the **SBI course at TU Dortmund University**.  
+We thank our instructors for guidance and valuable discussions.  
+
+Special thanks to:  
+- **Paul-Christian Bürkner** – for his valuable help in understanding BayesFlow.  
+- **Simon Kucharsky** – for his insightful ideas that supported the development of this project.  
+
