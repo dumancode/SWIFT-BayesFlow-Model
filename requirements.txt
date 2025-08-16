@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+matplotlib==3.10.1
+seaborn==0.13.2
+tensorflow==2.19.0
+bayesflow==2.0.4
